@@ -1008,7 +1008,7 @@ body {
   transform: translate(-30%, -50%);
   width: 100%;
   aspect-ratio: 198/213;
-  background-image: url(../images/01_4.png);
+  /* background-image: url(../images/01_4.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1326,7 +1326,7 @@ body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   aspect-ratio: 188/506;
-  background-image: url(../images/title-decor.png);
+  /* background-image: url(../images/title-decor.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1464,7 +1464,7 @@ body {
   z-index: 5;
   background: url(../images/img4.jpg) center/contain no-repeat;
   background-position: 75% 53%;
-  background-size: 100%;
+  background-size: cover;
 }
 
 
@@ -3097,6 +3097,7 @@ body {
 
   @supports (width: clamp(6.25rem, 3.6175213675rem + 13.1623931624vw, 15.875rem)) {
     .title-how__container-mini span::after {
+      margin-left: -15%;
       width: clamp(6.25rem, 3.6175213675rem + 13.1623931624vw, 15.875rem);
     }
   }
