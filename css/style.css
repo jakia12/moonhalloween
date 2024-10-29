@@ -3409,8 +3409,9 @@ body {
 
   @supports (font-size: clamp(1.125rem, 1.0224358974rem + 0.5128205128vw, 1.5rem)) {
     .item-tokenomics__item-value {
-      font-size: clamp(1.125rem, 1.0224358974rem + 0.5128205128vw, 1.5rem);
-    }
+      /* font-size: clamp(1.125rem, 1.0224358974rem + 0.5128205128vw, 1.5rem);
+    } */
+      font-size: 10px
   }
 
   @supports not (font-size: clamp(1.125rem, 1.0224358974rem + 0.5128205128vw, 1.5rem)) {
