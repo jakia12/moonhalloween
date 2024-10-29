@@ -1464,8 +1464,10 @@ body {
   z-index: 5;
   background: url(../images/img4.jpg) center/contain no-repeat;
   background-position: 75% 53%;
-  background-size: 40%;
+  background-size: 100%;
 }
+
+
 
 .social::before {
   content: '';
@@ -3355,6 +3357,7 @@ body {
 
   @supports (padding-right: clamp(0.9375rem, 0.6127136752rem + 1.6239316239vw, 2.125rem)) {
     .item-tokenomics {
+      /* width: 85%; */
       padding-right: clamp(0.9375rem,
           0.6127136752rem + 1.6239316239vw,
           2.125rem);
@@ -3499,7 +3502,7 @@ body {
 @media (min-width: 20em) and (max-width: 61.99875em) {
   @supports (font-size: clamp(1.75rem, 0.8273534927rem + 4.6132325367vw, 3.6875rem)) {
     .what__title span {
-      font-size: clamp(1.75rem, 0.8273534927rem + 4.6132325367vw, 3.6875rem);
+      font-size: clamp(1.75rem, + 4.6132325367vw, 3.6875rem);
     }
   }
 
