@@ -2985,7 +2985,7 @@ body {
 
   @supports (font-size: clamp(1.125rem, 1.0908119658rem + 0.1709401709vw, 1.25rem)) {
     .top-hero__text {
-      font-size: clamp(1.125rem, 1.0908119658rem + 0.1709401709vw, 1.25rem);
+      font-size: clamp(1.125rem, 0.7rem + 0.1709401709vw, 1.25rem);
     }
   }
 
